@@ -1,0 +1,11 @@
+module HexDisplay(
+	input [23:0] binary_in, //6 hex displays *4bits each = 24 bits
+	output [6:0] h0, h1, h2, h3, h4, h5
+);
+
+
+
+
+
+
+endmodule

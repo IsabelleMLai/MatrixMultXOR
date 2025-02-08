@@ -1,0 +1,23 @@
+module basic_ram ( 
+	input clk, wr_en, 
+	input [23:0] data_in, 
+	output [23:0] data_out, 
+	input [9:0] addr_wr, 
+	input [9:0] addr_rd 
+); 
+
+	reg [23:0] mem [1023:0]; 
+	// To initialize the RAM, Quartus supports initialization 
+	// which normal RAMs and synthesis do not support. 
+	// initial begin // mem[0] = 24'h03B03F; 
+	// mem[1] = 24'h000FFF; // mem[2] = 24'hBEBEBE; 
+	// ... // mem[1023] = 24'h726384; 
+	// end 
+	
+	always @(posedge clk) begin 
+		if (wr_en == 1’b1) begin 
+			mem[addr_wr] <= #1 data_in; // write mem 
+		end 
+		data_out <= #1 mem[addr_rd]; // read mem 
+	end 
+endmodule
