@@ -1,0 +1,88 @@
+module lab2_testbench;
+
+	reg clk;
+	reg [0:10000] i;
+	
+	wire [15:0] sum1;
+
+	initial begin
+		clk=0;
+		forever begin
+			#5
+			clk = ~clk;
+			
+		end
+	end
+	
+	
+	FA_sixteen fa(16'd30, 16'd55, sum1);
+	
+	initial begin
+		for(i=0; i<10000; i = i+1) begin
+			#
+			if(i==30) begin
+				rst  = 1'b0;
+			end
+			if(i==35) begin
+				rst = 1'b1;
+			end
+			if(i==70) begin
+				rst  = 1'b0;
+			end
+			if(i==125) begin
+				rst = 1'b1;
+			end
+			if(i==150) begin
+				invt  = 1'b0;
+			end
+			if(i==155) begin
+				invt = 1'b1;
+			end
+			if(i==180) begin
+				spd_up  = 1'b0;
+			end
+			if(i==185) begin
+				spd_up = 1'b1;
+			end
+			if(i==200) begin
+				rst  = 1'b0;
+			end
+			if(i==235) begin
+				rst = 1'b1;
+			end
+			if(i==240) begin
+				spd_up  = 1'b0;
+			end
+			if(i==245) begin
+				spd_up = 1'b1;
+			end
+			if(i==260) begin
+				pause  = 1'b0;
+			end
+			if(i==265) begin
+				pause = 1'b1;
+			end
+			if(i==270) begin
+				spd_up  = 1'b0;
+			end
+			if(i==275) begin
+				spd_up = 1'b1;
+			end
+			if(i==279) begin
+				spd_up  = 1'b0;
+			end
+			if(i==285) begin
+				spd_up = 1'b1;
+			end
+			if(i==288) begin
+				pause  = 1'b0;
+			end
+			if(i==290) begin
+				pause = 1'b1;
+			end
+		end
+	end
+	
+	
+	
+endmodule

@@ -1,0 +1,680 @@
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v was successful with warnings.
+# Compile of OneMac.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.lab2_testbench
+# vsim -gui work.lab2_testbench 
+# Start time: 12:41:31 on Feb 06,2025
+# Loading work.lab2_testbench
+# Loading work.MatrixMultFour
+# Loading work.basic_ram
+# Loading work.twenty_bit_ram
+# Loading work.OneMac
+# Loading work.FA_twenty
+# Loading work.FullAdder
+# ** Warning: (vsim-3015) C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v(26): [PCDPC] - Port size (20) does not match connection size (16) for port 'sum'. The port definition is at: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /lab2_testbench/fourx/mac1/add File: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/lab2_testbench/write_en
+add wave -position end  sim:/lab2_testbench/rst
+add wave -position end  sim:/lab2_testbench/row
+add wave -position end  sim:/lab2_testbench/n_state
+add wave -position end  sim:/lab2_testbench/matrixC
+add wave -position end  sim:/lab2_testbench/matrixB
+add wave -position end  sim:/lab2_testbench/matrixA
+add wave -position end  sim:/lab2_testbench/item
+add wave -position end  sim:/lab2_testbench/i
+add wave -position end  sim:/lab2_testbench/col
+add wave -position end  sim:/lab2_testbench/clk
+add wave -position end  sim:/lab2_testbench/c_state
+add wave -position end  sim:/lab2_testbench/b_out
+add wave -position end  sim:/lab2_testbench/addr_b
+add wave -position end  sim:/lab2_testbench/addr_a
+add wave -position end  sim:/lab2_testbench/a_out
+run -all
+# Break key hit
+# Break in Module basic_ram at C:/Users/19255/Desktop/Senior_Design_181/lab2/M10K/basic_ram.v line 18
+quit -sim
+# End time: 12:44:48 on Feb 06,2025, Elapsed time: 0:03:17
+# Errors: 0, Warnings: 2
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v failed with 1 errors.
+# Compile of OneMac.v was successful.
+# 11 compiles, 1 failed with 1 error.
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v was successful with warnings.
+# Compile of OneMac.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.lab2_testbench
+# vsim -gui work.lab2_testbench 
+# Start time: 12:45:32 on Feb 06,2025
+# Loading work.lab2_testbench
+# Loading work.MatrixMultFour
+# Loading work.basic_ram
+# Loading work.twenty_bit_ram
+# Loading work.OneMac
+# Loading work.FA_twenty
+# Loading work.FullAdder
+# ** Warning: (vsim-3015) C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v(26): [PCDPC] - Port size (20) does not match connection size (16) for port 'sum'. The port definition is at: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /lab2_testbench/fourx/mac1/add File: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v
+vsim -gui work.lab2_testbench
+# End time: 12:45:59 on Feb 06,2025, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 1
+# vsim -gui work.lab2_testbench 
+# Start time: 12:45:59 on Feb 06,2025
+# Loading work.lab2_testbench
+# Loading work.MatrixMultFour
+# Loading work.basic_ram
+# Loading work.twenty_bit_ram
+# Loading work.OneMac
+# Loading work.FA_twenty
+# Loading work.FullAdder
+# ** Warning: (vsim-3015) C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v(26): [PCDPC] - Port size (20) does not match connection size (16) for port 'sum'. The port definition is at: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /lab2_testbench/fourx/mac1/add File: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v
+add wave -position end  sim:/lab2_testbench/write_en
+add wave -position end  sim:/lab2_testbench/rst
+add wave -position end  sim:/lab2_testbench/row
+add wave -position end  sim:/lab2_testbench/n_state
+add wave -position end  sim:/lab2_testbench/matrixC
+add wave -position end  sim:/lab2_testbench/matrixB
+add wave -position end  sim:/lab2_testbench/matrixA
+add wave -position end  sim:/lab2_testbench/item
+add wave -position end  sim:/lab2_testbench/i
+add wave -position end  sim:/lab2_testbench/col
+add wave -position end  sim:/lab2_testbench/clk
+add wave -position end  sim:/lab2_testbench/c_state
+add wave -position end  sim:/lab2_testbench/b_out
+add wave -position end  sim:/lab2_testbench/addr_b
+add wave -position end  sim:/lab2_testbench/addr_a
+add wave -position end  sim:/lab2_testbench/a_out
+run -all
+# Break key hit
+# Simulation stop requested.
+# Break key hit
+quit -sim
+# End time: 12:49:12 on Feb 06,2025, Elapsed time: 0:03:13
+# Errors: 0, Warnings: 1
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v was successful with warnings.
+# Compile of OneMac.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.lab2_testbench
+# vsim -gui work.lab2_testbench 
+# Start time: 12:49:25 on Feb 06,2025
+# Loading work.lab2_testbench
+# Loading work.MatrixMultFour
+# Loading work.basic_ram
+# Loading work.twenty_bit_ram
+# Loading work.OneMac
+# Loading work.FA_twenty
+# Loading work.FullAdder
+# ** Warning: (vsim-3015) C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v(26): [PCDPC] - Port size (20) does not match connection size (16) for port 'sum'. The port definition is at: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /lab2_testbench/fourx/mac1/add File: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v
+add wave -position end  sim:/lab2_testbench/write_en
+add wave -position end  sim:/lab2_testbench/rst
+add wave -position end  sim:/lab2_testbench/row
+add wave -position end  sim:/lab2_testbench/n_state
+add wave -position end  sim:/lab2_testbench/matrixC
+add wave -position end  sim:/lab2_testbench/matrixB
+add wave -position end  sim:/lab2_testbench/matrixA
+add wave -position end  sim:/lab2_testbench/item
+add wave -position end  sim:/lab2_testbench/i
+add wave -position end  sim:/lab2_testbench/col
+add wave -position end  sim:/lab2_testbench/clk
+add wave -position end  sim:/lab2_testbench/c_state
+add wave -position end  sim:/lab2_testbench/b_out
+add wave -position end  sim:/lab2_testbench/addr_b
+add wave -position end  sim:/lab2_testbench/addr_a
+add wave -position end  sim:/lab2_testbench/a_out
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v was successful with warnings.
+# Compile of OneMac.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.lab2_testbench
+# End time: 12:54:30 on Feb 06,2025, Elapsed time: 0:05:05
+# Errors: 0, Warnings: 1
+# vsim -gui work.lab2_testbench 
+# Start time: 12:54:30 on Feb 06,2025
+# Loading work.lab2_testbench
+# Loading work.MatrixMultFour
+# Loading work.basic_ram
+# Loading work.twenty_bit_ram
+# Loading work.OneMac
+# Loading work.FA_twenty
+# Loading work.FullAdder
+# ** Warning: (vsim-3015) C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v(26): [PCDPC] - Port size (20) does not match connection size (16) for port 'sum'. The port definition is at: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /lab2_testbench/fourx/mac1/add File: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v
+add wave -position end  sim:/lab2_testbench/write_en
+add wave -position end  sim:/lab2_testbench/rst
+add wave -position end  sim:/lab2_testbench/row
+add wave -position end  sim:/lab2_testbench/n_state
+add wave -position end  sim:/lab2_testbench/matrixC
+add wave -position end  sim:/lab2_testbench/matrixB
+add wave -position end  sim:/lab2_testbench/matrixA
+add wave -position end  sim:/lab2_testbench/item
+add wave -position end  sim:/lab2_testbench/i
+add wave -position end  sim:/lab2_testbench/col
+add wave -position end  sim:/lab2_testbench/clk
+add wave -position end  sim:/lab2_testbench/c_state
+add wave -position end  sim:/lab2_testbench/b_out
+add wave -position end  sim:/lab2_testbench/addr_b
+add wave -position end  sim:/lab2_testbench/addr_a
+add wave -position end  sim:/lab2_testbench/a_out
+run -all
+# Break key hit
+# Break in Module MatrixMultFour at C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/MatrixMultFour.v line 127
+quit -sim
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v was successful with warnings.
+# Compile of OneMac.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.lab2_testbench
+# End time: 13:02:37 on Feb 06,2025, Elapsed time: 0:08:07
+# Errors: 0, Warnings: 1
+# vsim -gui work.lab2_testbench 
+# Start time: 13:02:37 on Feb 06,2025
+# Loading work.lab2_testbench
+# Loading work.MatrixMultFour
+# Loading work.basic_ram
+# Loading work.twenty_bit_ram
+# Loading work.OneMac
+# Loading work.FA_twenty
+# Loading work.FullAdder
+# ** Warning: (vsim-3015) C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v(26): [PCDPC] - Port size (20) does not match connection size (16) for port 'sum'. The port definition is at: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /lab2_testbench/fourx/mac1/add File: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v
+add wave -position end  sim:/lab2_testbench/write_enc
+add wave -position end  sim:/lab2_testbench/write_enab
+add wave -position end  sim:/lab2_testbench/rst
+add wave -position end  sim:/lab2_testbench/row
+add wave -position end  sim:/lab2_testbench/n_state
+add wave -position end  sim:/lab2_testbench/matrixC
+add wave -position end  sim:/lab2_testbench/matrixB
+add wave -position end  sim:/lab2_testbench/matrixA
+add wave -position end  sim:/lab2_testbench/item
+add wave -position end  sim:/lab2_testbench/i
+add wave -position end  sim:/lab2_testbench/col
+add wave -position end  sim:/lab2_testbench/clk
+add wave -position end  sim:/lab2_testbench/c_state
+add wave -position end  sim:/lab2_testbench/c_datain
+add wave -position end  sim:/lab2_testbench/b_out
+add wave -position end  sim:/lab2_testbench/addr_c
+add wave -position end  sim:/lab2_testbench/addr_b
+add wave -position end  sim:/lab2_testbench/addr_a
+add wave -position end  sim:/lab2_testbench/a_out
+run -all
+# Break key hit
+# Break in Module lab2_testbench at C:/Users/19255/Desktop/Senior_Design_181/lab2/test_bench/lab2_testbench.v line 24
+quit -sim
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v was successful with warnings.
+# Compile of OneMac.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v was successful with warnings.
+# Compile of OneMac.v was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 13:19:18 on Feb 06,2025, Elapsed time: 0:16:41
+# Errors: 0, Warnings: 1
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v was successful with warnings.
+# Compile of OneMac.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.lab2_testbench
+# vsim -gui work.lab2_testbench 
+# Start time: 13:19:34 on Feb 06,2025
+# Loading work.lab2_testbench
+# Loading work.MatrixMultFour
+# Loading work.basic_ram
+# Loading work.twenty_bit_ram
+# Loading work.OneMac
+# Loading work.FA_twenty
+# Loading work.FullAdder
+# ** Error: (vsim-3389) C:/Users/19255/Desktop/Senior_Design_181/lab2/test_bench/lab2_testbench.v(31): Port 'mac_rst' not found in the connected module (9th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /lab2_testbench/fourx File: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/MatrixMultFour.v
+# ** Fatal: (vsim-3365) C:/Users/19255/Desktop/Senior_Design_181/lab2/test_bench/lab2_testbench.v(31): Too many port connections. Expected 18, found 19.
+#    Time: 0 ps  Iteration: 0  Instance: /lab2_testbench/fourx File: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/MatrixMultFour.v
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 13:19:35 on Feb 06,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v was successful with warnings.
+# Compile of OneMac.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.lab2_testbench
+# vsim -gui work.lab2_testbench 
+# Start time: 13:20:14 on Feb 06,2025
+# Loading work.lab2_testbench
+# Loading work.MatrixMultFour
+# Loading work.basic_ram
+# Loading work.twenty_bit_ram
+# Loading work.OneMac
+# Loading work.FA_twenty
+# Loading work.FullAdder
+# ** Warning: (vsim-3015) C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v(26): [PCDPC] - Port size (20) does not match connection size (16) for port 'sum'. The port definition is at: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /lab2_testbench/fourx/mac1/add File: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v
+add wave -position end  sim:/lab2_testbench/write_enc
+add wave -position end  sim:/lab2_testbench/write_enab
+add wave -position end  sim:/lab2_testbench/rst
+add wave -position end  sim:/lab2_testbench/row
+add wave -position end  sim:/lab2_testbench/n_state
+add wave -position end  sim:/lab2_testbench/matrixC
+add wave -position end  sim:/lab2_testbench/matrixB
+add wave -position end  sim:/lab2_testbench/matrixA
+add wave -position end  sim:/lab2_testbench/mac_reset
+add wave -position end  sim:/lab2_testbench/item
+add wave -position end  sim:/lab2_testbench/i
+add wave -position end  sim:/lab2_testbench/col
+add wave -position end  sim:/lab2_testbench/clk
+add wave -position end  sim:/lab2_testbench/c_state
+add wave -position end  sim:/lab2_testbench/c_datain
+add wave -position end  sim:/lab2_testbench/b_out
+add wave -position end  sim:/lab2_testbench/addr_c
+add wave -position end  sim:/lab2_testbench/addr_b
+add wave -position end  sim:/lab2_testbench/addr_a
+add wave -position end  sim:/lab2_testbench/a_out
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 13:23:57 on Feb 06,2025, Elapsed time: 0:03:43
+# Errors: 0, Warnings: 1
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v was successful with warnings.
+# Compile of OneMac.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.lab2_testbench
+# vsim -gui work.lab2_testbench 
+# Start time: 13:24:09 on Feb 06,2025
+# Loading work.lab2_testbench
+# Loading work.MatrixMultFour
+# Loading work.basic_ram
+# Loading work.twenty_bit_ram
+# Loading work.OneMac
+# Loading work.FA_twenty
+# Loading work.FullAdder
+# ** Warning: (vsim-3015) C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v(26): [PCDPC] - Port size (20) does not match connection size (16) for port 'sum'. The port definition is at: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /lab2_testbench/fourx/mac1/add File: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v
+add wave -position end  sim:/lab2_testbench/write_enc
+add wave -position end  sim:/lab2_testbench/write_enab
+add wave -position end  sim:/lab2_testbench/rst
+add wave -position end  sim:/lab2_testbench/row
+add wave -position end  sim:/lab2_testbench/n_state
+add wave -position end  sim:/lab2_testbench/matrixC
+add wave -position end  sim:/lab2_testbench/matrixB
+add wave -position end  sim:/lab2_testbench/matrixA
+add wave -position end  sim:/lab2_testbench/mac_reset
+add wave -position end  sim:/lab2_testbench/item
+add wave -position end  sim:/lab2_testbench/i
+add wave -position end  sim:/lab2_testbench/col
+add wave -position end  sim:/lab2_testbench/clk
+add wave -position end  sim:/lab2_testbench/c_state
+add wave -position end  sim:/lab2_testbench/c_datain
+add wave -position end  sim:/lab2_testbench/b_out
+add wave -position end  sim:/lab2_testbench/addr_c
+add wave -position end  sim:/lab2_testbench/addr_b
+add wave -position end  sim:/lab2_testbench/addr_a
+add wave -position end  sim:/lab2_testbench/a_out
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v was successful with warnings.
+# Compile of OneMac.v was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 13:27:41 on Feb 06,2025, Elapsed time: 0:03:32
+# Errors: 0, Warnings: 1
+vsim -gui work.lab2_testbench
+# vsim -gui work.lab2_testbench 
+# Start time: 13:27:48 on Feb 06,2025
+# Loading work.lab2_testbench
+# Loading work.MatrixMultFour
+# Loading work.basic_ram
+# Loading work.twenty_bit_ram
+# Loading work.OneMac
+# Loading work.FA_twenty
+# Loading work.FullAdder
+# ** Warning: (vsim-3015) C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v(26): [PCDPC] - Port size (20) does not match connection size (16) for port 'sum'. The port definition is at: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /lab2_testbench/fourx/mac1/add File: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v
+add wave -position end  sim:/lab2_testbench/write_enc
+add wave -position end  sim:/lab2_testbench/write_enab
+add wave -position end  sim:/lab2_testbench/rst
+add wave -position end  sim:/lab2_testbench/row
+add wave -position end  sim:/lab2_testbench/n_state
+add wave -position end  sim:/lab2_testbench/matrixC
+add wave -position end  sim:/lab2_testbench/matrixB
+add wave -position end  sim:/lab2_testbench/matrixA
+add wave -position end  sim:/lab2_testbench/mac_reset
+add wave -position end  sim:/lab2_testbench/item
+add wave -position end  sim:/lab2_testbench/i
+add wave -position end  sim:/lab2_testbench/col
+add wave -position end  sim:/lab2_testbench/clk
+add wave -position end  sim:/lab2_testbench/c_state
+add wave -position end  sim:/lab2_testbench/c_datain
+add wave -position end  sim:/lab2_testbench/b_out
+add wave -position end  sim:/lab2_testbench/addr_c
+add wave -position end  sim:/lab2_testbench/addr_b
+add wave -position end  sim:/lab2_testbench/addr_a
+add wave -position end  sim:/lab2_testbench/a_out
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v was successful with warnings.
+# Compile of OneMac.v was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 13:52:19 on Feb 06,2025, Elapsed time: 0:24:31
+# Errors: 0, Warnings: 1
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v was successful with warnings.
+# Compile of OneMac.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.lab2_testbench
+# vsim -gui work.lab2_testbench 
+# Start time: 13:52:35 on Feb 06,2025
+# Loading work.lab2_testbench
+# Loading work.MatrixMultFour
+# Loading work.basic_ram
+# Loading work.twenty_bit_ram
+# Loading work.OneMac
+# Loading work.FA_twenty
+# Loading work.FullAdder
+# ** Warning: (vsim-3017) C:/Users/19255/Desktop/Senior_Design_181/lab2/test_bench/lab2_testbench.v(31): [TFMPC] - Too few port connections. Expected 20, found 19.
+#    Time: 0 ps  Iteration: 0  Instance: /lab2_testbench/fourx File: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/MatrixMultFour.v
+# ** Warning: (vsim-3722) C:/Users/19255/Desktop/Senior_Design_181/lab2/test_bench/lab2_testbench.v(31): [TFMPC] - Missing connection for port 'outc'.
+# ** Warning: (vsim-3015) C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v(26): [PCDPC] - Port size (20) does not match connection size (16) for port 'sum'. The port definition is at: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /lab2_testbench/fourx/mac1/add File: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v
+add wave -position end  sim:/lab2_testbench/write_enc
+add wave -position end  sim:/lab2_testbench/write_enab
+add wave -position end  sim:/lab2_testbench/rst
+add wave -position end  sim:/lab2_testbench/row
+add wave -position end  sim:/lab2_testbench/n_state
+add wave -position end  sim:/lab2_testbench/matrixC
+add wave -position end  sim:/lab2_testbench/matrixB
+add wave -position end  sim:/lab2_testbench/matrixA
+add wave -position end  sim:/lab2_testbench/mac_reset
+add wave -position end  sim:/lab2_testbench/item
+add wave -position end  sim:/lab2_testbench/i
+add wave -position end  sim:/lab2_testbench/col
+add wave -position end  sim:/lab2_testbench/clk
+add wave -position end  sim:/lab2_testbench/c_state
+add wave -position end  sim:/lab2_testbench/c_datain
+add wave -position end  sim:/lab2_testbench/b_out
+add wave -position end  sim:/lab2_testbench/addr_c
+add wave -position end  sim:/lab2_testbench/addr_b
+add wave -position end  sim:/lab2_testbench/addr_a
+add wave -position end  sim:/lab2_testbench/a_out
+run -all
+# Break key hit
+# Break in Module OneMac at C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v line 35
+quit -sim
+# End time: 13:56:47 on Feb 06,2025, Elapsed time: 0:04:12
+# Errors: 0, Warnings: 3
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v was successful with warnings.
+# Compile of OneMac.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.lab2_testbench
+# vsim -gui work.lab2_testbench 
+# Start time: 13:57:00 on Feb 06,2025
+# Loading work.lab2_testbench
+# Loading work.MatrixMultFour
+# Loading work.basic_ram
+# Loading work.twenty_bit_ram
+# Loading work.OneMac
+# Loading work.FA_twenty
+# Loading work.FullAdder
+# ** Warning: (vsim-3015) C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v(26): [PCDPC] - Port size (20) does not match connection size (16) for port 'sum'. The port definition is at: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /lab2_testbench/fourx/mac1/add File: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v
+add wave -position end  sim:/lab2_testbench/write_enc
+add wave -position end  sim:/lab2_testbench/write_enab
+add wave -position end  sim:/lab2_testbench/rst
+add wave -position end  sim:/lab2_testbench/row
+add wave -position end  sim:/lab2_testbench/n_state
+add wave -position end  sim:/lab2_testbench/matrixC
+add wave -position end  sim:/lab2_testbench/matrixB
+add wave -position end  sim:/lab2_testbench/matrixA
+add wave -position end  sim:/lab2_testbench/mac_reset
+add wave -position end  sim:/lab2_testbench/item
+add wave -position end  sim:/lab2_testbench/i
+add wave -position end  sim:/lab2_testbench/col
+add wave -position end  sim:/lab2_testbench/clk
+add wave -position end  sim:/lab2_testbench/c_state
+add wave -position end  sim:/lab2_testbench/c_out
+add wave -position end  sim:/lab2_testbench/c_datain
+add wave -position end  sim:/lab2_testbench/b_out
+add wave -position end  sim:/lab2_testbench/addr_c
+add wave -position end  sim:/lab2_testbench/addr_b
+add wave -position end  sim:/lab2_testbench/addr_a
+add wave -position end  sim:/lab2_testbench/a_out
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 14:14:04 on Feb 06,2025, Elapsed time: 0:17:04
+# Errors: 0, Warnings: 1
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v was successful with warnings.
+# Compile of OneMac.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.lab2_testbench
+# vsim -gui work.lab2_testbench 
+# Start time: 14:14:18 on Feb 06,2025
+# Loading work.lab2_testbench
+# Loading work.MatrixMultFour
+# Loading work.basic_ram
+# Loading work.twenty_bit_ram
+# Loading work.OneMac
+# Loading work.FA_twenty
+# Loading work.FullAdder
+# ** Warning: (vsim-3015) C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v(26): [PCDPC] - Port size (20) does not match connection size (16) for port 'sum'. The port definition is at: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /lab2_testbench/fourx/mac1/add File: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v
+add wave -position end  sim:/lab2_testbench/write_enc
+add wave -position end  sim:/lab2_testbench/write_enab
+add wave -position end  sim:/lab2_testbench/rst
+add wave -position end  sim:/lab2_testbench/row
+add wave -position end  sim:/lab2_testbench/n_state
+add wave -position end  sim:/lab2_testbench/matrixC
+add wave -position end  sim:/lab2_testbench/matrixB
+add wave -position end  sim:/lab2_testbench/matrixA
+add wave -position end  sim:/lab2_testbench/mac_reset
+add wave -position end  sim:/lab2_testbench/item
+add wave -position end  sim:/lab2_testbench/i
+add wave -position end  sim:/lab2_testbench/col
+add wave -position end  sim:/lab2_testbench/clk
+add wave -position end  sim:/lab2_testbench/c_state
+add wave -position end  sim:/lab2_testbench/c_out
+add wave -position end  sim:/lab2_testbench/c_datain
+add wave -position end  sim:/lab2_testbench/b_out
+add wave -position end  sim:/lab2_testbench/addr_c
+add wave -position end  sim:/lab2_testbench/addr_b
+add wave -position end  sim:/lab2_testbench/addr_a
+add wave -position end  sim:/lab2_testbench/a_out
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# Compile of FullAdder.v was successful.
+# Compile of FA_sixteen.v was successful.
+# Compile of lab2_testbench.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of MTenK.v was successful.
+# Compile of MTenK_bb.v was successful.
+# Compile of basic_ram.v was successful.
+# Compile of twenty_bit_ram.v was successful.
+# Compile of FA_twenty.v was successful.
+# Compile of MatrixMultFour.v was successful with warnings.
+# Compile of OneMac.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.lab2_testbench
+# End time: 14:22:23 on Feb 06,2025, Elapsed time: 0:08:05
+# Errors: 0, Warnings: 1
+# vsim -gui work.lab2_testbench 
+# Start time: 14:22:23 on Feb 06,2025
+# Loading work.lab2_testbench
+# Loading work.MatrixMultFour
+# Loading work.basic_ram
+# Loading work.twenty_bit_ram
+# Loading work.OneMac
+# Loading work.FA_twenty
+# Loading work.FullAdder
+# ** Warning: (vsim-3015) C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v(26): [PCDPC] - Port size (20) does not match connection size (16) for port 'sum'. The port definition is at: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /lab2_testbench/fourx/mac1/add File: C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v
+add wave -position end  sim:/lab2_testbench/write_enc
+add wave -position end  sim:/lab2_testbench/write_enab
+add wave -position end  sim:/lab2_testbench/rst
+add wave -position end  sim:/lab2_testbench/row
+add wave -position end  sim:/lab2_testbench/n_state
+add wave -position end  sim:/lab2_testbench/matrixC
+add wave -position end  sim:/lab2_testbench/matrixB
+add wave -position end  sim:/lab2_testbench/matrixA
+add wave -position end  sim:/lab2_testbench/mac_reset
+add wave -position end  sim:/lab2_testbench/item
+add wave -position end  sim:/lab2_testbench/i
+add wave -position end  sim:/lab2_testbench/col
+add wave -position end  sim:/lab2_testbench/clk
+add wave -position end  sim:/lab2_testbench/c_state
+add wave -position end  sim:/lab2_testbench/c_out
+add wave -position end  sim:/lab2_testbench/c_datain
+add wave -position end  sim:/lab2_testbench/b_out
+add wave -position end  sim:/lab2_testbench/addr_c
+add wave -position end  sim:/lab2_testbench/addr_b
+add wave -position end  sim:/lab2_testbench/addr_a
+add wave -position end  sim:/lab2_testbench/a_out
+run -all
+# Break key hit
+# Break in Module basic_ram at C:/Users/19255/Desktop/Senior_Design_181/lab2/M10K/basic_ram.v line 18

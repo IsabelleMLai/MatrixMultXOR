@@ -1,0 +1,227 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/19255/Desktop/Senior_Design_181/lab1/simulation
+vAccumulator
+Z0 !s110 1738880531
+!i10b 1
+!s100 B_nI;mmSU7BzUEg]8_2Xn1
+IN7aOML_ZoR=GSEVOa2YMl2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/19255/Desktop/Senior_Design_181/lab2/simulation
+w1738819787
+8C:/Users/19255/Desktop/Senior_Design_181/lab2/added files/Accumulator.v
+FC:/Users/19255/Desktop/Senior_Design_181/lab2/added files/Accumulator.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1738880531.000000
+!s107 C:/Users/19255/Desktop/Senior_Design_181/lab2/added files/Accumulator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/19255/Desktop/Senior_Design_181/lab2/added files/Accumulator.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@accumulator
+vbasic_ram
+Z7 !s110 1738880532
+!i10b 1
+!s100 id=K32][hNf5`C8]PE>VV1
+I5i2jU=AY?F=9gZj4?daoH1
+R1
+R2
+w1738663526
+8C:/Users/19255/Desktop/Senior_Design_181/lab2/M10K/basic_ram.v
+FC:/Users/19255/Desktop/Senior_Design_181/lab2/M10K/basic_ram.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1738880532.000000
+!s107 C:/Users/19255/Desktop/Senior_Design_181/lab2/M10K/basic_ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/19255/Desktop/Senior_Design_181/lab2/M10K/basic_ram.v|
+!i113 1
+R5
+R6
+vFA_sixteen
+R0
+!i10b 1
+!s100 V]`b[i5zg<YeLHgkALl<h1
+IaAbg<i9fI2S2@b4VhTDDi3
+R1
+R2
+w1738666262
+8C:/Users/19255/Desktop/Senior_Design_181/lab2/added files/FA_sixteen.v
+FC:/Users/19255/Desktop/Senior_Design_181/lab2/added files/FA_sixteen.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/19255/Desktop/Senior_Design_181/lab2/added files/FA_sixteen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/19255/Desktop/Senior_Design_181/lab2/added files/FA_sixteen.v|
+!i113 1
+R5
+R6
+n@f@a_sixteen
+vFA_twenty
+Z9 !s110 1738880533
+!i10b 1
+!s100 OK_GGYX7<g0lO:nM1DDkj2
+ISOGPS1`PLk?`eKO`T?iBg0
+R1
+R2
+w1738819104
+8C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v
+FC:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z10 !s108 1738880533.000000
+!s107 C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/FA_twenty.v|
+!i113 1
+R5
+R6
+n@f@a_twenty
+vFullAdder
+R0
+!i10b 1
+!s100 @LmW=kdmzdzGGLgGEgh7D1
+In<Sn0>U:R9H7>d<N:OQZh1
+R1
+R2
+w1738654837
+8C:/Users/19255/Desktop/Senior_Design_181/lab2/added files/FullAdder.v
+FC:/Users/19255/Desktop/Senior_Design_181/lab2/added files/FullAdder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/19255/Desktop/Senior_Design_181/lab2/added files/FullAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/19255/Desktop/Senior_Design_181/lab2/added files/FullAdder.v|
+!i113 1
+R5
+R6
+n@full@adder
+vlab2_testbench
+R0
+!i10b 1
+!s100 7K28?IPFO@J[KohTa7cl91
+IO>4?G`mSJYfUkQm_lOe5>0
+R1
+R2
+w1738878964
+8C:/Users/19255/Desktop/Senior_Design_181/lab2/test_bench/lab2_testbench.v
+FC:/Users/19255/Desktop/Senior_Design_181/lab2/test_bench/lab2_testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/19255/Desktop/Senior_Design_181/lab2/test_bench/lab2_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/19255/Desktop/Senior_Design_181/lab2/test_bench/lab2_testbench.v|
+!i113 1
+R5
+R6
+vMatrixMultFour
+R9
+!i10b 1
+!s100 HLB2`CfM_4X3=9]S<M;OK0
+IL36]i39@fH3ll>Kea^OX52
+R1
+R2
+w1738880498
+8C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/MatrixMultFour.v
+FC:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/MatrixMultFour.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/MatrixMultFour.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/MatrixMultFour.v|
+!i113 1
+R5
+R6
+n@matrix@mult@four
+vMTenK
+R7
+!i10b 1
+!s100 A3z3m7JmR@zmD2nXPNe^S2
+IPF>J9X6X0`?PW7oonZEc[1
+R1
+R2
+w1738115942
+8C:/Users/19255/Desktop/Senior_Design_181/lab2/M10K/MTenK_bb.v
+FC:/Users/19255/Desktop/Senior_Design_181/lab2/M10K/MTenK_bb.v
+L0 35
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/19255/Desktop/Senior_Design_181/lab2/M10K/MTenK_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/19255/Desktop/Senior_Design_181/lab2/M10K/MTenK_bb.v|
+!i113 1
+R5
+R6
+n@m@ten@k
+vOneMac
+R9
+!i10b 1
+!s100 >NU0cZ?A?i?1M4@jzaLlP1
+IDRgSCE?1CPRh[5R3gDAA13
+R1
+R2
+w1738877211
+8C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v
+FC:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/19255/Desktop/Senior_Design_181/lab2/pt2/OneMac.v|
+!i113 1
+R5
+R6
+n@one@mac
+vtwenty_bit_ram
+R9
+!i10b 1
+!s100 7;jUIE84k71@a76El@i6J3
+IR;:k96GF9TZVEgL5=nalS0
+R1
+R2
+w1738818525
+8C:/Users/19255/Desktop/Senior_Design_181/lab2/M10K/twenty_bit_ram.v
+FC:/Users/19255/Desktop/Senior_Design_181/lab2/M10K/twenty_bit_ram.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/19255/Desktop/Senior_Design_181/lab2/M10K/twenty_bit_ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/19255/Desktop/Senior_Design_181/lab2/M10K/twenty_bit_ram.v|
+!i113 1
+R5
+R6
